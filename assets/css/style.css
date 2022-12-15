@@ -1,0 +1,59 @@
+:root {
+    --light: #f8f1dd;
+    --darkblue: #477447;
+    --lightblue: #938694;
+    --red: #755c2b;
+    --lightred: #9f95b6;
+    --lightyellow: #c2a4cb;
+  }
+  
+  /* Apply custom Google font */
+  body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+  }
+  
+  h1, 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 200;
+    margin-top: 50px;
+  }
+  
+  /* Shared custom styles for headers */
+  .header {
+    background-image: url(https://www.freewebheaders.com/wp-content/gallery/high-tech-designs/circuit-board-design-and-neon-light-circles-blue-header.jpg);
+    color: rgb(244, 244, 244);
+    
+  }
+  .custom-modal-header,
+  .custom-card-header,
+  .btn-custom {
+    background-color: var(--darkblue);
+    color: var(--light);
+  }
+  
+
+
+
+
+  .btn-custom:hover {
+    color: var(--lightblue);
+  }
+  
+  .table-custom th {
+    background-color: var(--red);
+    color: var(--light);
+  }
+  
+  /* style project rows based on status (late, due today) */
+  .project-late {
+    background-color: var(--lightred);
+  }
+  
+  .project-today {
+    background-color: var(--lightyellow);
+  }
